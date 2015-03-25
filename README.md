@@ -1,4 +1,4 @@
-# `Array.prototype.last`
+# `Array.prototype.takeRight`
 
 ## Status
 
@@ -11,9 +11,9 @@ WIP strawman proposal.
 **Example:**
 
 ```js
-[1, 2, 3].last();
-// 3
-[1, 2, 3].last(2);
+[1, 2, 3].takeRight();
+// [3]
+[1, 2, 3].takeRight(2);
 // [2, 3]
 ```
 
@@ -26,7 +26,7 @@ WIP strawman proposal.
 **Syntax**
 
 ```ts
-Array.prototype.last(n=1): array|any
+Array.prototype.takeRight(n=1): array
 ```
 
 **Description**
